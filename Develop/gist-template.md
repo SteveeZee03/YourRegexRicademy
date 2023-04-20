@@ -28,10 +28,12 @@ Regular Expression:` /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 <br>
 <br>
 Below we'll be breaking down regex text groups into to their individual components:
-<br>
-<br>
-1. `\^`- Using the backslash and carrot, respectively, this signifies that this is the beginning of the text group and the start of the string.<br>
-2.`([a-z0-9_\.-]+)` This is the first portion of our regex. The (a-z) is whats telling it to match one or more lowercase letters that go through a-z. The (0-9) tells it to match numbers that match 0-9 more or equal than once, the same applies with the left over characters. 
+
+1. `\^`- Using the backslash and carrot, respectively, this signifies that this is the beginning of the text group and the start of the string.
+
+2. `([a-z0-9_\.-]+)` This is the first portion of our regex. This is the portion that corresponds with the username of the email address. The (a-z) is whats telling it to match one or more lowercase letters that go through a-z. The (0-9) tells it to match numbers that match 0-9 more or equal than once, the same applies with the left over characters.
+
+3. `@` - This is what separates the username from the domain name (username@domain.com)
 
 ### Anchors
 

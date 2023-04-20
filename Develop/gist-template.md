@@ -48,7 +48,7 @@ In a regex, the symbols `^` and `$` are used respectively to start and finish a 
 Quantifiers describe how many occurrances of a characters, group, or character class must be present in the input in order to find a match. The `+` operator and the quantifier `{2,6}` are used to command that the email's tail should be between 2-6 characters long. 
 
 ### OR Operator
-With an OR operator (`|`), you can match characters to the left and right of the `|` character but, this isn't being currently used in our regex example. 
+With an OR operator `|`, you can match characters to the left and right of the `|` character but, this isn't being currently used in our regex example. 
 
 
 ### Character Classes

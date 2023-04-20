@@ -5,7 +5,8 @@ Regular expression, commonly reffered to as Regex, is a text format used in many
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+For the beginning of our ricademy, we will be examine this regex for matching email addresses: <br>
+` /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 ## Table of Contents
 

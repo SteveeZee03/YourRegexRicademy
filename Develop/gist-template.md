@@ -35,7 +35,9 @@ Below we'll be breaking down regex text groups into to their individual componen
 
 3. `@` - This is what separates the username from the domain name (username@domain.com)
 
-4. `([\da-z\.-]+)`- This is the second portion of our regex. This is the capturing group the corresponds with the domain. All rules mentioned from No.2 can be applied to No.3.  
+4. `([\da-z\.-]+)`- This is the second portion of our regex. This is the capturing group the corresponds with the domain. All rules mentioned from No.2 can be applied to No.3.
+
+5. `\.([a-z\.]{2,6})` This is the third and final portion of our regex. This capturing group corresponds with the top-level domain. All rules mention from No.2 can also be applied here. We also a have quantifier in our capturing group this will be futher elaborated in our [Quantifiers](#quantifiers) tab.
 
 ### Anchors
 

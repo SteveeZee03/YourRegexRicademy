@@ -35,6 +35,8 @@ Below we'll be breaking down regex text groups into to their individual componen
 
 3. `@` - This is what separates the username from the domain name (username@domain.com)
 
+4. `([\da-z\.-]+)`- This is the second portion of our regex. This is the capturing group the corresponds with the domain. All rules mentioned from No.2 can be applied to No.3.  
+
 ### Anchors
 
 ### Quantifiers

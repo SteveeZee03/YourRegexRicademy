@@ -41,10 +41,12 @@ Below we'll be breaking down regex text groups into to their individual componen
 
 6. `$/` - The dollar sign with the foward slash at the end siginifies that it's the end of the string.
 
-### Anchors
+### <b>Anchors</b>
 
 In a regex, the symbols `^` and `$` are used respectively to start and finish a string. This just ensures that the string matches its portion correctly.
-### Quantifiers
+### <b>Quantifiers</b>
+
+Quantifiers describe how many occurrances of a characters, group, or character class must be present in the input in order to find a match. The `+` operator and the quantifier `{2,6}` are used to command that the email's tail should be between 2-6 characters long. 
 
 ### OR Operator
 

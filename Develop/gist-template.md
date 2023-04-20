@@ -43,6 +43,7 @@ Below we'll be breaking down regex text groups into to their individual componen
 
 ### Anchors
 
+In a regex, the symbols `^` and `$` are used respectively to start and finish a string. This just ensures that the string matches its portion correctly.
 ### Quantifiers
 
 ### OR Operator

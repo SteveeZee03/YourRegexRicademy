@@ -1,6 +1,7 @@
-# Title (replace with your title)
+# YourRegexRicademy
 
-Introductory paragraph (replace this with your text)
+## What is a Regex?
+Regular expression, commonly reffered to as Regex, is a text format used in many computer languages that acts as a search pattern. Regular expressions can be used in code or search algorithims to find certain character patterns within a given string.
 
 ## Summary
 

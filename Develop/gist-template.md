@@ -52,7 +52,7 @@ With an OR operator `|`, you can match characters to the left and right of the `
 
 
 ### Character Classes
-
+`[]` Brackets in a regex are used to define character classes which will match any character that's inside the brackets. For example, the lowercase letters, numbers, underscores, periods and hyphens are valid examples of a character class.  
 ### Flags
 
 ### Grouping and Capturing

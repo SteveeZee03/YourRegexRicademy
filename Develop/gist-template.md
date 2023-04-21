@@ -101,4 +101,6 @@ Look-aheads and look-behinds are used to match a pattern if it's proceded or fol
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Steven NZ <br>
+Feel free to checkout some of my work with the link below  : )<br>
+Github Username: <a href ="https://github.com/SteveeZee03?tab=repositories"> SteveeZee03</a>

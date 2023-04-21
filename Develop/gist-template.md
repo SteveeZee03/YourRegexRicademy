@@ -83,8 +83,11 @@ By default your regex engine should be in greedy `+`. What this means is that it
 
 ### Boundaries
 Boundaries are used to match the position between characters in a string.<br>
-There's two types of boundaries:<br>
-The caret `^` which matches signifies the beginning of a line or string
+There's two main types of boundaries:<br>
+The caret `^` which matches at the beginning of a line or string.<br>
+The dollar sign `$` matches the position at the end of a line or string.<br> 
+This same can be applied with words using `\b`.  
+
 
 ### Back-references
 

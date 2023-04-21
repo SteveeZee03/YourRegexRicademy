@@ -90,7 +90,7 @@ This same can be applied with words using `\b`.
 
 
 ### Back-references
-
+Back-references `\` are used to reference a previously matched group in your regex. You can also use a backslash`\` followed by a number to refer to a specific group.
 
 ### Look-ahead and Look-behind
 

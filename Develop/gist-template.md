@@ -76,6 +76,7 @@ Flags are optional parameters in regular expressions that change the behavior of
 `([\da-z\.-]+)` - Top-level domain
 
 ### Bracket Expressions
+`[]` - Bracket expressions are used to match a single character from a set of characters. For example, `[abc]` will match any single character that either 'a', 'b', or 'c'. You can also use `[a-z]` to match all lowercase letters that range from a to z. This can also be applied to numbers and other special characters as well.
 
 ### Greedy and Lazy Match
 

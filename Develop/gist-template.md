@@ -41,20 +41,20 @@ Below we'll be breaking down regex text groups into to their individual componen
 
 6. `$/` - The dollar sign with the foward slash at the end siginifies that it's the end of the string.
 
-### <b>Anchors</b>
+## Anchors
 In a regex, the symbols `^` and `$` are used respectively to start and finish a string. This just ensures that the string matches its portion correctly.
 
-### <b>Quantifiers</b>
+## Quantifiers
 Quantifiers describe how many occurrances of a characters, group, or character class must be present in the input in order to find a match. The `+` operator and the quantifier `{2,6}` are used to command that the email's tail should be between 2-6 characters long. 
 
-### OR Operator
+## OR Operator
 With an OR operator `|`, you can match characters to the left and right of the `|` character but, this isn't being currently used in our regex example. 
 
 
-### Character Classes
+## Character Classes
 `[]` Brackets in a regex are used to define character classes which will match any character that's inside the brackets. For example, the lowercase letters, numbers, underscores, periods and hyphens are valid examples of a character class.
 
-### Flags
+## Flags
 Flags are optional parameters in regular expressions that change the behavior of the string based on which flag is picked.
 <li><b>(i) Case-insensitive flag</b></li>
 <p>Case-insensitive flag will lookout for letters regardless of their capitilization.</p>
@@ -69,19 +69,19 @@ Flags are optional parameters in regular expressions that change the behavior of
 <li><b>(y) Sticky flag</b></li>
 <p>What the sticky flag will do is it will look for patterns at a specific spot in the string and will go only to that spot until the match is unsuccessful.</p>
 
-### Grouping and Capturing
+## Grouping and Capturing
 `()` - Paranthesis are used to group and capture parts of a pattern. This was used we captured our username, domain, and top-level domain in our regex email address.<br>
 `([a-z0-9_\.-]+)` - <b>Username</b> <br>
 `([\da-z\.-]+)` - <b>Domain</b><br>
 `([\da-z\.-]+)` - <b>Top-level domain</b>
 
-### Bracket Expressions
+## Bracket Expressions
 `[]` - Bracket expressions are used to match a single character from a set of characters. For example, `[abc]` will match any single character that either 'a', 'b', or 'c'. You can also use `[a-z]` to match all lowercase letters that range from a to z. This can also be applied to numbers and other special characters as well.
 
-### Greedy and Lazy Match
+## Greedy and Lazy Match
 By default your regex engine should be in greedy `+`. What this means is that it will match as much of the input string as possible while still allowing the pattern to match while a <b>lazy match</b> `?` will try to find the shortest substring possible that still matches the pattern which means your regex engine will stop matching as soon it finds a valid match. 
 
-### Boundaries
+## Boundaries
 Boundaries are used to match the position between characters in a string.<br>
 There's two main types of boundaries:<br><br>
 <b>The caret `^`</b> which matches at the beginning of a line or string.<br>
@@ -89,10 +89,10 @@ There's two main types of boundaries:<br><br>
 This same can be applied with words using <b>`\b`.</b>  
 
 
-### Back-references
+## Back-references
 Back-references `\` are used to reference a previously matched group in your regex. You can also use a backslash `\` followed by a number to refer to a specific group.
 
-### Look-ahead and Look-behind
+## Look-ahead and Look-behind
 Look-aheads and look-behinds are used to match a pattern if it's proceded or followed by another pattern without including the other pattern in the match itself.<br><br>
 <b>Positive look-ahead:  `(?= )`</b><br>
 <b>Positive look-behind: `(?<= )`</b><br>

@@ -93,6 +93,11 @@ This same can be applied with words using `\b`.
 Back-references `\` are used to reference a previously matched group in your regex. You can also use a backslash `\` followed by a number to refer to a specific group.
 
 ### Look-ahead and Look-behind
+Look-aheads and look-behinds are used to match a pattern if it's proceded or followed by another pattern without including the other pattern in the match itself.<br>
+<b>Positive look-ahead:  `(?= )`</b><br>
+<b>Positive look-behind: `(?<= )`</b><br>
+<b>Negative look-ahead:  `(?! )`</b><br>
+<b>Negative look-behind: `(?<! )`</b>
 
 ## Author
 

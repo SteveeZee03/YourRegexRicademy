@@ -71,9 +71,9 @@ Flags are optional parameters in regular expressions that change the behavior of
 
 ### Grouping and Capturing
 `()` - Paranthesis are used to group and capture parts of a pattern. This was used we captured our username, domain, and top-level domain in our regex email address.<br>
-`([a-z0-9_\.-]+)` - Username <br>
-`([\da-z\.-]+)` - Domain<br>
-`([\da-z\.-]+)` - Top-level domain
+`([a-z0-9_\.-]+)` - <b>Username</b> <br>
+`([\da-z\.-]+)` - <b>Domain</b><br>
+`([\da-z\.-]+)` - <b>Top-level domain</b>
 
 ### Bracket Expressions
 `[]` - Bracket expressions are used to match a single character from a set of characters. For example, `[abc]` will match any single character that either 'a', 'b', or 'c'. You can also use `[a-z]` to match all lowercase letters that range from a to z. This can also be applied to numbers and other special characters as well.

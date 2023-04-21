@@ -29,7 +29,7 @@ Regular Expression:` /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 <br>
 Below we'll be breaking down regex text groups into to their individual components:
 
-1. `\^`- Using the backslash and carrot, respectively, this signifies that this is the beginning of the text group and the start of the string.
+1. `\^`- Using the backslash and caret, respectively, this signifies that this is the beginning of the text group and the start of the string.
 
 2. `([a-z0-9_\.-]+)` This is the first portion of our regex. This is the portion that corresponds with the username of the email address. The (a-z) is whats telling it to match one or more lowercase letters that go through a-z. The (0-9) tells it to match numbers that match 0-9 more or equal than once, the same applies with the left over characters.
 
@@ -82,8 +82,12 @@ Flags are optional parameters in regular expressions that change the behavior of
 By default your regex engine should be in greedy `+`. What this means is that it will match as much of the input string as possible while still allowing the pattern to match while a <b>lazy match</b> `?` will try to find the shortest substring possible that still matches the pattern which means your regex engine will stop matching as soon it finds a valid match. 
 
 ### Boundaries
+Boundaries are used to match the position between characters in a string.<br>
+There's two types of boundaries:<br>
+The caret `^` which matches signifies the beginning of a line or string
 
 ### Back-references
+
 
 ### Look-ahead and Look-behind
 

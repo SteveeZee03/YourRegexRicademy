@@ -70,6 +70,10 @@ Flags are optional parameters in regular expressions that change the behavior of
 <p>What the sticky flag will do is it will look for patterns at a specific spot in the string and will go only to that spot until the match is unsuccessful.</p>
 
 ### Grouping and Capturing
+`()` - Paranthesis are used to group and capture parts of a pattern. This was used we captured our username, domain, and top-level domain in our regex email address.<br>
+`([a-z0-9_\.-]+)` - Username <br>
+`([\da-z\.-]+)` - Domain<br>
+`([\da-z\.-]+)` - Top-level domain
 
 ### Bracket Expressions
 

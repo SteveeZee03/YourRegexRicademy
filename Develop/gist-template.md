@@ -52,8 +52,22 @@ With an OR operator `|`, you can match characters to the left and right of the `
 
 
 ### Character Classes
-`[]` Brackets in a regex are used to define character classes which will match any character that's inside the brackets. For example, the lowercase letters, numbers, underscores, periods and hyphens are valid examples of a character class.  
+`[]` Brackets in a regex are used to define character classes which will match any character that's inside the brackets. For example, the lowercase letters, numbers, underscores, periods and hyphens are valid examples of a character class.
+
 ### Flags
+Flags are optional parameters in regular expressions that change the behavior of the string based on which flag is picked.
+<li><b>(i) Case-insensitive flag</b></li>
+<p>Case-insensitive flag will lookout for letters regardless of their capitilization.</p>
+<li><b> (g) Global flag</b></li>
+<p>In a regex when global is used, it means that the regex will search for all occurences of a pattern in the string and not just the first one.
+<li> <b> (m) Multiline flag </b> </li>
+<p> A multiline flag is used when you want to search a pattern across multiple lines instead of one.
+<li><b> (s) Dot all flag</b></li>
+<p> when a '(s)' is used, it will match any spot where there's spaces, tabs, or line breaks.</p>
+<li><b> (u) Unicode flag</b></li>
+<p>The '(u)' in a regex instructs the computer to implement unicode character matching rules while looking for patterns in a string. This is more important if you're working with text from non-latin writing systems.</p>
+<li><b>(y) Sticky flag</b></li>
+<p>What the sticky flag will do is it will look for patterns at a specific spot in the string and will go only to that spot until the match is unsuccessful.</p>
 
 ### Grouping and Capturing
 
